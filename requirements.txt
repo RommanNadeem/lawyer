@@ -1,7 +1,7 @@
 openai
-streamlit==1.15.0
+streamlit
 moviepy
-altair==4.1.0
+altair
 imghdr
 
 
