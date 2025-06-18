@@ -1,3 +1,5 @@
 openai
 streamlit==1.15.0
 moviepy
+altair==4.1.0
+
