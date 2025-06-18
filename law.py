@@ -20,9 +20,7 @@ def transcribe(file_path):
         model="gpt-4o-transcribe",
         file= chunk,
         prompt=(
-        "Transcribe the audio into English only, "
-        "Translate to english"
-        "don't use non-Roman characters or Urdu script."
+        "Translate to English"
         )
     )
     content = resp.text
